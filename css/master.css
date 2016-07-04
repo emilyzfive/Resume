@@ -12,16 +12,6 @@ body{
 li{
   list-style: none;
 }
-/*@media not print {
-  .only-print {
-    display: none !important;
-  }
-}
-@media print {
-  .only-screen {
-    display: none !important;
-  }
-}*/
 #main{
   max-width: 960px;
   margin: 3em auto;
@@ -299,4 +289,15 @@ footer div a:hover{
   footer{
     display: none;
   }
+}
+.link{
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+}
+.link .demo{
+  margin-right: 35px;
+}
+.link i{
+  color: #CD5C5C;
 }
