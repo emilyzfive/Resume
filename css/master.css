@@ -7,8 +7,12 @@ body{
   display: flex;
   flex-direction: column;
   font: 500 1em/1.5 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
-
 }
+ @media print{
+  body{
+    line-height: 8px;
+  }
+ }
 li{
   list-style: none;
 }
@@ -19,7 +23,6 @@ li{
   background-color: #fff;
   box-shadow: 5px 7px 10px 10px #999;
 }
-
 @media print {
   #main{
     width: 100%;
@@ -47,6 +50,20 @@ header{
     display: block;
     margin-top: 80px;
   }
+}
+header .left .link{
+  display: none;
+}
+@media print{
+  header .left .link{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+
+  }
+  header .left .link a{
+      color: #CD5C5C;
+    }
 }
 header .left{
   flex: 1;
@@ -191,6 +208,7 @@ section{
   section{
     margin-left: 0;
     margin-right: 0;
+    margin-top: 18px;
   }
 }
 @media screen and (max-width:680px){
@@ -204,7 +222,7 @@ section{
 }
 @media print{
   .base_infor,.skills,.project,.honor{
-    margin-bottom: 18px;
+    margin-bottom: 15px;
   }
 }
 .tag{
