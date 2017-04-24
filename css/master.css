@@ -45,10 +45,13 @@ header{
 }
 @media screen and (max-width:680px){
   header {
-    height: 220px;
+    height: 260px;
     padding: 0.7%;
     display: block;
     margin-top: 80px;
+  }
+  .right {
+    margin-left: 20px;
   }
 }
 header .left .link{
@@ -220,9 +223,15 @@ section{
 .base_infor,.skills,.project,.honor{
   margin-bottom: 30px;
 }
+.base_infor .indent{
+  text-indent: 87px;
+}
 @media print{
   .base_infor,.skills,.project,.honor{
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+  }
+  .base_infor .indent{
+    margin-top: 10px;
   }
 }
 .tag{
