@@ -38,7 +38,7 @@ header{
 }
 @media print {
   header {
-    height: 90px;
+    height: 130px;
     padding: 0 7%;
     display: block;
   }
@@ -61,8 +61,7 @@ header .left .link{
   header .left .link{
     display: block;
     text-decoration: none;
-    margin-bottom: 15px;
-
+    margin-bottom: 20px;
   }
   header .left .link a{
       color: #CD5C5C;
@@ -86,7 +85,7 @@ header .left{
 }
 header .left h2{
   margin-left: 42%;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
 }
 @media print{
   header .left h2{
@@ -117,6 +116,7 @@ header .left p{
 @media print{
   header .left p{
     margin-left: 0;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width:680px){
@@ -231,6 +231,9 @@ section{
     margin-bottom: 12px;
   }
   .base_infor .indent{
+    margin-top: 10px;
+  }
+  .honor {
     margin-top: 10px;
   }
 }
