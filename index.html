@@ -47,11 +47,11 @@
             <!-- <li><i class="fa fa-hand-o-right"></i><p>Redux/redux-toolkit：有 React + Redux 开发经验，熟悉数据处理流程</p></li> -->
             <li><i class="fa fa-hand-o-right"></i><p>Vue：熟练掌握 Vue2.x，了解模板编译原理和响应式原理，了解 Vue3.0</p></li>
             <!-- <li><i class="fa fa-hand-o-right"></i><p>MPVue：熟悉 MPVue，能够使用 MPVue 开发小程序项目，了解小程序设计思想</p></li> -->
-            <li><i class="fa fa-hand-o-right"></i><p>React Native：熟悉使用 React Native 开发移动端项目</p></li>            
+            <li><i class="fa fa-hand-o-right"></i><p>React Native：熟练使用 React Native 开发移动端项目</p></li>            
             <li><i class="fa fa-hand-o-right"></i><p>构建工具：使用 Webpack 进行前端工程构建，熟悉常用 Webpack 项目优化手段，了解 Webpack 构建流程</p></li>
             <li><i class="fa fa-hand-o-right"></i><p>预编译语言：能够使用 Less、PostCSS 高效编写、转换 CSS</p></li>
             <li><i class="fa fa-hand-o-right"></i><p>工程化：熟悉常见的性能优化手段，熟悉 Git，有良好的 commit message 习惯，了解 CI/CD 流程</p></li>
-            <li><i class="fa fa-hand-o-right"></i><p>项目管理：参加过PM培训，熟悉项目管理流程</p></li>
+            <li><i class="fa fa-hand-o-right"></i><p>项目管理：参加过 PM 培训，熟悉项目管理流程</p></li>
           </ul>
         </div>
 
@@ -137,9 +137,22 @@
               <p class="line-height">项目结果：企业用车日活提升至100个，货主日均发货量由56票提升至600票。客户综合满意度80%。</p>
             </li>
           </ul> -->
+
+          <ul>
+            <li><i class="fa fa-tag"></i><p class="project-name">RN 监控大盘</p>
+              <p class="project-detail">项目背景：RN 包的体积大小会影响页面的打开速度，目前每周都会手动去统计包体积，查看增量，手动统计包体积很麻烦，为何不维护一个网站，自动读取包体积大小，进行展示呢？要是能再将 RN 的异常告警统计起来，就更好了。</p>
+              <p class="project-detail">项目职责：</p>
+              <ul>
+                <li><i class="fa fa-check-square" aria-hidden="true"></i><p>搭建RN监控大盘的前端页面，技术栈为 React+Ant Design，通过图形化的方式展示包体积变化</p></li>
+                <li><i class="fa fa-check-square" aria-hidden="true"></i><p>维护RN监控大盘后端，技术栈为 Nodejs，加入每周推送功能，定时向钉钉群推送异常信息</p></li>
+              </ul>
+              <p class="line-height">项目结果：查看包体积增量更便捷，RN 异常信息处理更及时。</p>
+            </li>
+          </ul>
+
           <ul>
             <li><i class="fa fa-tag"></i><p class="project-name">企业用车货源诊断</p>
-              <p class="project-detail">企业用车没有货源诊断会导致货主不知道如何优化货源，影响企业货源成交。企业用车缺乏司机报价，引导货主加价等促成交操作。该项目通过货源诊断提升货源成交率。</p>
+              <p class="project-detail">项目背景：企业用车没有货源诊断会导致货主不知道如何优化货源，影响企业货源成交。企业用车缺乏司机报价，引导货主加价等促成交操作。该项目通过货源诊断提升货源成交率。</p>
               <p class="project-detail">项目职责：</p>
               <ul>
                 <li><i class="fa fa-check-square" aria-hidden="true"></i><p>承担前端架构师，参与项目整个生命周期，分析需求，给出项目概设</p></li>
@@ -147,6 +160,19 @@
                 <li><i class="fa fa-check-square" aria-hidden="true"></i><p>负责司机端加价模块的开发，技术栈为 React Native + Mobx</p></li>
               </ul>
               <p class="line-height">项目结果：主发货提升4%，货主总体完单率提升5.5%，预计年化增量价值791万元。</p>
+            </li>
+          </ul>
+
+          <ul>
+            <li><i class="fa fa-tag"></i><p class="project-name">预装管理后台优化</p>
+              <p class="project-detail">项目背景：预装后台是小米手机激活时，需要预装的APP管理后台。后台使用 Vue2.x/Vue Router/Vuex+Element 构建。该项目页面启动慢，影响用户体验；Vue2.x 对类型声明不友好，影响开发体验。</p>
+              <p class="project-detail">项目职责：</p>
+              <ul>
+                <li><i class="fa fa-check-square" aria-hidden="true"></i><p>对 Element 组件进行按需引用；进行动态 import 业务组件；长列表使用虚拟 Table 进行优化</p></li>
+                <li><i class="fa fa-check-square" aria-hidden="true"></i><p>webpack 开启 gzip 压缩资源；通过配置 externals，将基础包通过 CDN 引入，不打入 bundle 中</p></li>
+                <li><i class="fa fa-check-square" aria-hidden="true"></i><p>引入 vue-class-compont，以 class 的方式写 vue 组件，对整合 TS 更友好</p></li>
+              </ul>
+              <p class="line-height">项目结果：页面访问速度、包体积大小都得到了提升；开发、维护效率更高效。</p>
             </li>
           </ul>
         </div>

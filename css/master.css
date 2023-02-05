@@ -363,4 +363,7 @@ footer div a:hover {
   .project-name {
     margin-top: 20px;
   }
+  .honor {
+    margin-top: -35px;
+  }
 }
