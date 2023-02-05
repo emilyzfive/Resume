@@ -350,6 +350,9 @@ footer div a:hover {
   line-height: 25px;
 }
 @media print {
+  .project {
+    margin-top: 100px;
+  }
   .project-detail {
     margin-top: 15px;
     line-height: 25px;
@@ -364,6 +367,6 @@ footer div a:hover {
     margin-top: 20px;
   }
   .honor {
-    margin-top: -35px;
+    margin-top: 35px;
   }
 }
